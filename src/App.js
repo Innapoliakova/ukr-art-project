@@ -5,10 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>My project</h1>
+        <h1>My project's name</h1>
       </header>
     </div>
   );
 }
 
 export default App;
+
