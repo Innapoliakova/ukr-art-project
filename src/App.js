@@ -1,12 +1,19 @@
-
+import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import About from './components/About';
+import Artobjects from './components/Artobjects';
+import Donate from './components/Donate';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>My project's name</h1>
-      </header>
+     <Header/>
+     <About/>
+     <Artobjects></Artobjects>
+     <Donate/>
+     <Footer/>
     </div>
   );
 }
